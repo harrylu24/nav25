@@ -96,6 +96,15 @@ export const sites = [
       url: 'https://vercel.com/',
       category: 'pages',
       icon: '/icons/vercel.webp',
+      },      
+      {
+      id: 'claude',
+      title: 'Claude',
+      description: 'Anthropic开发的先进AI助手，以安全性和有用性为核心设计理念，擅长复杂推理、创作写作和深度对话，注重AI安全和人类价值对齐。',
+      shortDesc: 'AI对话助手',
+      url: 'https://claude.ai/',
+      category: 'pages',
+      icon: '/icons/claude.webp',
       },
 ];
 /**
@@ -159,4 +168,3 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 }
-
