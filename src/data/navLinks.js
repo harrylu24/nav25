@@ -23,16 +23,28 @@ npx tsx icon-system/0icon.ts
  */
 export const categories = [
   {
+    id: 'pages',
+    name: '自托管', icon: '/icons/category/pages.svg',
+  },
+  {
+    id: 'ai',
+    name: '开源平台', icon: '/icons/category/opensource.svg',
+  },
+  {
     id: 'opensource',
     name: '开源平台', icon: '/icons/category/opensource.svg',
   },
   {
-    id: 'Studying',
-    name: '个人其他站点', icon: '/icons/category/studying.svg',
+    id: 'vps',
+    name: 'VPS ', icon: '/icons/category/vps.svg',
   },
   {
-    id: 'pages',
-    name: '静态部署平台', icon: '/icons/category/pages.svg',
+    id: 'news',
+    name: '新闻', icon: '/icons/category/news.svg',
+  },
+  {
+    id: 'Studying',
+    name: '个人其他站点', icon: '/icons/category/studying.svg',
   },
 ];
 /**
@@ -103,7 +115,7 @@ export const sites = [
       description: 'Anthropic开发的先进AI助手，以安全性和有用性为核心设计理念，擅长复杂推理、创作写作和深度对话，注重AI安全和人类价值对齐。',
       shortDesc: 'AI对话助手',
       url: 'https://claude.ai/',
-      category: 'pages',
+      category: 'ai',
       icon: '/icons/claude.webp',
       },
       // 网站统一分类数据 - opensource 分类      
@@ -122,7 +134,7 @@ export const sites = [
       description: 'AI驱动的搜索引擎和问答平台，结合实时网络搜索与大语言模型，为用户提供准确、有来源引用的答案，重新定义信息获取方式。',
       shortDesc: 'AI搜索问答引擎。',
       url: 'https://www.perplexity.ai/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/perplexity.webp',
       },
       {
@@ -131,7 +143,7 @@ export const sites = [
       description: 'OpenAI开发的革命性对话AI助手，基于GPT架构提供自然语言理解、创作辅助、代码编程和问题解答等全方位智能服务，引领AI应用新时代。',
       shortDesc: 'OpenAI对话AI助手。',
       url: 'https://chat.openai.com/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/chatgpt.webp',
       },
       {
@@ -140,7 +152,7 @@ export const sites = [
       description: 'xAI公司开发的AI聊天机器人，以其独特的幽默风格和实时信息获取能力著称，通过X平台集成提供个性化的AI交互体验。',
       shortDesc: 'xAI幽默风格聊天机器人。',
       url: 'https://grok.x.ai/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/grok.webp',
       },
       {
@@ -149,7 +161,7 @@ export const sites = [
       description: 'Google最新一代多模态AI模型，支持文本、图像、音频和视频理解，提供强大的推理能力和创意生成功能，是Google AI技术的集大成者。',
       shortDesc: 'Google多模态AI助手。',
       url: 'https://gemini.google.com/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/gemini.webp',
       },
       {
@@ -158,7 +170,7 @@ export const sites = [
       description: 'Google面向开发者的AI实验平台，提供Gemini模型API访问、提示工程工具和AI应用开发环境，助力开发者快速构建AI驱动的应用程序。',
       shortDesc: 'Google AI开发者平台。',
       url: 'https://ai.google.dev/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/ai-google-dev.webp',
       },
       {
@@ -167,7 +179,7 @@ export const sites = [
       description: '硅基流动推出的模型即服务(MaaS)平台，提供开源大模型的云端推理加速服务，支持Qwen、DeepSeek、GLM4等模型，为开发者提供高性价比的AI服务。',
       shortDesc: '开源模型云服务平台。',
       url: 'https://siliconflow.cn/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/siliconcloud.webp',
       },
       {
@@ -176,7 +188,7 @@ export const sites = [
       description: '统一的AI模型API网关，通过单一接口提供400+个来自主流厂商的AI模型访问，支持自动故障转移和成本优化，兼容OpenAI API标准。',
       shortDesc: '统一AI模型API网关。',
       url: 'https://openrouter.ai/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/openrouter.webp',
       },
       {
@@ -230,7 +242,7 @@ export const sites = [
       description: '腾讯旗下的云计算服务平台，提供云服务器、数据库、AI服务、CDN和物联网等全栈云服务，依托腾讯生态为企业数字化转型提供强力支撑。',
       shortDesc: '腾讯云计算服务平台。',
       url: 'https://cloud.tencent.com/',
-      category: 'opensource',
+      category: 'vps',
       icon: '/icons/tencent-cloud.webp',
       },
       {
@@ -239,7 +251,7 @@ export const sites = [
       description: 'Amazon提供的全球领先云计算平台，拥有最完整的基础设施和平台服务组合，从计算存储到机器学习，为各规模企业提供可靠的云解决方案。',
       shortDesc: 'Amazon云计算平台。',
       url: 'https://aws.amazon.com/',
-      category: 'opensource',
+      category: 'vps',
       icon: '/icons/aws.webp',
       },
       {
@@ -284,7 +296,7 @@ export const sites = [
       description: 'AI驱动的代码编辑器，基于VSCode构建并集成GPT-4等先进AI模型，提供智能代码补全、自然语言编程和AI结对编程体验，重塑开发者工作流。',
       shortDesc: 'AI代码编辑器。',
       url: 'https://cursor.sh/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/cursor.webp',
       },
       {
@@ -293,7 +305,7 @@ export const sites = [
       description: '企业级AI软件开发平台，拥有业界领先的上下文引擎，提供代码补全、智能编辑建议和团队协作功能，专为大型代码库和团队开发优化。',
       shortDesc: '企业AI开发平台。',
       url: 'https://www.augmentcode.com/',
-      category: 'opensource',
+      category: 'ai',
       icon: '/icons/augment.webp',
       },
       {
@@ -347,7 +359,7 @@ export const sites = [
       description: '美国知名VPS主机服务商，以高性价比著称，提供KVM虚拟化技术的云服务器，多数据中心覆盖，为个人开发者和小企业提供可靠的托管服务。',
       shortDesc: '美国VPS主机服务商。',
       url: 'https://www.racknerd.com/',
-      category: 'opensource',
+      category: 'vps',
       icon: '/icons/racknerd.webp',
       },
       {
@@ -356,7 +368,7 @@ export const sites = [
       description: '现代化的域名注册和管理平台，提供简洁直观的界面和具有竞争力的价格，支持多种顶级域名注册，为个人和企业提供专业的域名服务。',
       shortDesc: '域名注册管理平台。',
       url: 'https://www.spaceship.com/',
-      category: 'opensource',
+      category: 'vps',
       icon: '/icons/spaceship.webp',
       },
       {
@@ -365,7 +377,7 @@ export const sites = [
       description: '数据库资源和教程平台，提供各种数据库系统的学习资料、最佳实践和技术文档，为数据库管理员和开发者提供专业的知识支持。',
       shortDesc: '数据库资源平台。',
       url: 'https://databasemart.com/',
-      category: 'opensource',
+      category: 'vps',
       icon: '/icons/databasemart.webp',
       },
       {
@@ -374,7 +386,7 @@ export const sites = [
       description: '全球领先的商业和金融信息服务提供商，实时提供市场数据、财经新闻、分析报告和交易工具，是金融专业人士的权威信息来源。',
       shortDesc: '金融信息服务平台。',
       url: 'https://www.bloomberg.com/',
-      category: 'opensource',
+      category: 'news',
       icon: '/icons/bloomberg.webp',
       },
       {
@@ -383,7 +395,7 @@ export const sites = [
       description: '英国广播公司，世界知名的公共媒体机构，提供全球新闻、深度报道、教育内容和娱乐节目，以客观公正的报道风格享誉全球。',
       shortDesc: '英国广播公司。',
       url: 'https://www.bbc.com/',
-      category: 'opensource',
+      category: 'news',
       icon: '/icons/bbc.webp',
       },
       {
@@ -392,7 +404,7 @@ export const sites = [
       description: '美国有线电视新闻网，24小时提供全球突发新闻、政治分析和深度报道，通过多媒体平台为全球观众提供及时准确的新闻信息。',
       shortDesc: '美国有线新闻网。',
       url: 'https://www.cnn.com/',
-      category: 'opensource',
+      category: 'news', 
       icon: '/icons/cnn.webp',
       },
 ];
