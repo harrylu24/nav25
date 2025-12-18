@@ -28,7 +28,7 @@ export const categories = [
   },
   {
     id: 'ai',
-    name: 'AI01', icon: '/icons/category/opensource.svg',
+    name: 'AI', icon: '/icons/category/opensource.svg',
   },
   {
     id: 'opensource',
@@ -63,24 +63,24 @@ export const sites = [
       icon: '/icons/github.webp',
       },
   //个人其他站点      
-      {
-      id: 'zywede',
-      title: 'zywe.de',
-      description: '个人主页与知识集散地。作为技术爱好者，展示自己的全部项目、实践与分享的中心',
-      shortDesc: 'zywe个人官网',
-      url: 'https://zywe.de/',
-      category: 'Studying',
-      icon: '/icons/zywede.png',
-      },
-      {
-      id: 'dh_zywede',
-      title: 'nav.zywe.de',
-      description: '专属导航页,这里汇聚了日常学习、开发与管理服务器所需的所有高效工具与资源链接，快速触达各项在线服务的便捷入口，确保学习与实践的流畅性。',
-      shortDesc: '让每个人都有自己的网站式收藏夹',
-      url: 'https://dh.zywe.de/',
-      category: 'Studying',
-      icon: '/icons/dh-zywede.png',
-      },
+      // {
+      // id: 'zywede',
+      // title: 'zywe.de',
+      // description: '个人主页与知识集散地。作为技术爱好者，展示自己的全部项目、实践与分享的中心',
+      // shortDesc: 'zywe个人官网',
+      // url: 'https://zywe.de/',
+      // category: 'Studying',
+      // icon: '/icons/zywede.png',
+      // },
+      // {
+      // id: 'dh_zywede',
+      // title: 'nav.zywe.de',
+      // description: '专属导航页,这里汇聚了日常学习、开发与管理服务器所需的所有高效工具与资源链接，快速触达各项在线服务的便捷入口，确保学习与实践的流畅性。',
+      // shortDesc: '让每个人都有自己的网站式收藏夹',
+      // url: 'https://dh.zywe.de/',
+      // category: 'Studying',
+      // icon: '/icons/dh-zywede.png',
+      // },
       // pages      
       {
       id: 'github-pages',
@@ -406,6 +406,69 @@ export const sites = [
       url: 'https://www.cnn.com/',
       category: 'news', 
       icon: '/icons/cnn.webp',
+      },      
+      {
+      id: 'ippure',
+      title: 'IPPure',
+      description: '提供 IP 纯度与风险评分的一站式检测平台，集成 IP 位置、数据中心归属、代理识别、WebRTC 泄露与浏览器指纹等多种检测工具，适合风控校验与隐私检查使用。',
+      shortDesc: 'IP 风险与纯度检测平台。',
+      url: 'https://ippure.com/',
+      category: 'vps',
+      icon: '/icons/ippure.webp',
+      },
+      {
+      id: 'vmrack',
+      title: 'VMRack',
+      description: '面向全球业务的云基础设施服务商，提供 CN2 GIA 等优质线路的 VPS、裸金属服务器、CDN、对象存储与媒体转码等产品，重点优化中国大陆方向的网络时延与稳定性。',
+      shortDesc: '支持优质回国线路的云服务平台。',
+      url: 'https://www.vmrack.net/',
+      category: 'vps',
+      icon: '/icons/vmrack.webp',
+      },
+      {
+      id: 'termius',
+      title: 'Termius',
+      description: '跨平台的现代化 SSH 客户端，支持 SSH、Mosh、Telnet、端口转发和 SFTP，提供多标签、命令片段同步和加密云端配置等特性，便于在桌面与移动端统一管理服务器连接。',
+      shortDesc: '跨平台现代化 SSH 客户端。',
+      url: 'https://termius.com/',
+      category: 'Studying',
+      icon: '/icons/termius.webp',
+      },
+      {
+      id: 'whoer',
+      title: 'Whoer VPN',
+      description: '专注在线隐私和匿名性的 VPN 与检测服务，通过加密隧道隐藏真实 IP、保护公共 Wi-Fi 下的流量安全，并提供 IP 与浏览器环境检测工具，帮助绕过地域限制与审查。',
+      shortDesc: '注重匿名性的 VPN 与检测服务。',
+      url: 'https://whoer.net/',
+      category: 'vps',
+      icon: '/icons/whoer.webp',
+      },
+      {
+      id: 'zaobao-realtime',
+      title: '联合早报·即时新闻',
+      description: '新加坡《联合早报》的即时新闻频道，聚合新加坡、中国、国际、财经等各板块的最新资讯，适合关注华文世界时事与新加坡本地动态的读者。', // [web:24]
+      shortDesc: '华文即时新闻与深度报道平台。', // [web:24]
+      url: 'https://www.zaobao.com.sg/realtime',
+      category: 'news',
+      icon: '/icons/zaobao-realtime.webp',
+      },
+      {
+      id: 'laeb-dmitea',
+      title: 'LAEB DMITEA',
+      description: '基于 laeb.dmitea.com 的在线服务站点（具体功能可按你实际用途修改描述，例如教学实验平台、内部工具或演示环境）。',
+      shortDesc: '自定义在线服务/实验平台站点。',
+      url: 'https://laeb.dmitea.com/',
+      category: 'Studying',
+      icon: '/icons/category/Studying.svg',
+      },
+      {
+      id: 'speedtest',
+      title: 'Speedtest by Ookla',
+      description: '全球广泛使用的网络测速服务，提供下载速度、上传速度与延迟一键测试，并依托全球服务器网络评估家庭宽带或移动网络的实际表现。', // [web:31][web:37]
+      shortDesc: '测网速与延迟的权威测速工具。', // [web:31][web:37]
+      url: 'https://www.speedtest.net/',
+      category: 'vps',
+      icon: '/icons/speedtest.webp',
       },
 ];
 /**
