@@ -24,7 +24,7 @@ npx tsx icon-system/0icon.ts
 export const categories = [
   {
     id: 'pages',
-    name: '自托管', icon: '/icons/category/pages.svg',
+    name: '自托管平台', icon: '/icons/category/pages.svg',
   },
   {
     id: 'ai',
