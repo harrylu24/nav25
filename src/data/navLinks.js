@@ -28,7 +28,7 @@ export const categories = [
   },
   {
     id: 'ai',
-    name: '开源平台', icon: '/icons/category/opensource.svg',
+    name: 'AI', icon: '/icons/category/opensource.svg',
   },
   {
     id: 'opensource',
