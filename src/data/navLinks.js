@@ -217,7 +217,7 @@ export const sites = [
       shortDesc: 'PostgreSQL管理工具。',
       // url: 'https://www.pgadmin.org/',
       url: 'https://kms.gl-lighting.cn:8443',
-      category: 'pages'
+      category: 'pages',
       icon: '/icons/pgadmin.webp',
       },
       {
