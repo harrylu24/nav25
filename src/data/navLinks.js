@@ -88,7 +88,7 @@ export const sites = [
       description: 'GitHub 提供的静态网站托管服务，支持自定义域名与 HTTPS，可直接从仓库部署，适合个人主页、项目文档与开源展示，集成 Git 工作流，极简且可靠。',
       shortDesc: 'Git 驱动的静态网站托管。',
       url: 'https://pages.github.com/',
-      category: 'pages',
+      category: 'opensource',
       icon: '/icons/github-pages.webp',
       },
       {
@@ -205,8 +205,9 @@ export const sites = [
       title: 'Apache Airflow',
       description: '开源的工作流编排平台，通过Python代码定义、调度和监控复杂的数据管道，广泛应用于ETL任务、机器学习流水线和批处理作业管理。',
       shortDesc: '开源工作流编排工具。',
-      url: 'https://airflow.apache.org/',
-      category: 'opensource',
+      // url: 'https://airflow.apache.org/',
+      url: 'https://air41.gll01.top:2056/home',
+      category: 'pages',
       icon: '/icons/airflow.webp',
       },
       {
