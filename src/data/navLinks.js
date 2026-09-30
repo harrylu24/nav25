@@ -202,7 +202,7 @@ export const sites = [
       },
       {
       id: 'airflow',
-      title: 'Apache Airflow',
+      title: 'Airflow41 GLL',
       description: '开源的工作流编排平台，通过Python代码定义、调度和监控复杂的数据管道，广泛应用于ETL任务、机器学习流水线和批处理作业管理。',
       shortDesc: '开源工作流编排工具。',
       // url: 'https://airflow.apache.org/',
@@ -212,7 +212,7 @@ export const sites = [
       },
       {
       id: 'pgadmin',
-      title: 'pgAdmin',
+      title: 'pgAdmin GLL',
       description: 'PostgreSQL数据库的开源Web管理工具，提供直观的图形界面用于数据库设计、查询执行、性能监控和用户管理，是DBA和开发者的必备工具。',
       shortDesc: 'PostgreSQL管理工具。',
       // url: 'https://www.pgadmin.org/',
